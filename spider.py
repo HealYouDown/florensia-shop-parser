@@ -109,6 +109,7 @@ class Spider(scrapy.Spider):
         yield {
             "id": id,
             "name": item_name,
+            "time_limit": timelimit,
             "details": details,
             "variants": variants,
             "prices": prices,
