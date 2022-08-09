@@ -1,0 +1,21 @@
+{
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "python.formatting.blackArgs": [
+        "--line-length=100",
+    ],
+    "python.sortImports.args": [
+        "--profile",
+        "black"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=100",
+    ],
+}
